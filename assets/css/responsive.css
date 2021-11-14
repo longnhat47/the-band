@@ -1,0 +1,98 @@
+/* mobile */
+@media (max-width: 740px){
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-btn-full{
+        width: 100%;
+        text-align: center;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .nav{
+        display: block;
+    }
+    
+    #header .nav > li{
+        display: block;
+    }
+
+    #header .nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header .search{
+        display: none;
+    }
+
+    #header .menu-mobile-btn{
+        display: block;
+    }
+
+    #header .subnav{
+        position: initial;
+    }
+
+    #header .subnav li a{
+        background-color: #999;
+    }
+
+    #band .member-list .member{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #band .member-list .member img{
+        width: 60%;
+    }
+
+    #tour .place-list .place-item{
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    #contact .contact-input{
+        margin-top: 16px;
+    }
+        
+}
+
+@media (max-width: 1023px){
+    #header .subnav li a{
+        padding: 1px 28px;
+    }
+
+    #contact .contact-info li{
+        line-height: 2;
+    }
+
+    #tour .btn-buy,
+    #contact .btn-send{
+        padding: 15px 16px;
+    }
+
+    #contact .form-control{
+        padding: 15px;
+    }
+
+    #footer .footer-content .social-icon a{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+
+    #footer .footer-content .copyright{
+        margin-top: 16px;
+        font-size: 24px;
+    }
+
+    #footer .footer-content .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
